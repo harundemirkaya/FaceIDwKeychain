@@ -10,12 +10,13 @@
 		4F2F66D22A123E6900819DAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F66D12A123E6900819DAF /* AppDelegate.swift */; };
 		4F2F66D42A123E6900819DAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F66D32A123E6900819DAF /* SceneDelegate.swift */; };
 		4F2F66D62A123E6900819DAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F66D52A123E6900819DAF /* ViewController.swift */; };
-		4F2F66D92A123E6900819DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2F66D72A123E6900819DAF /* Main.storyboard */; };
 		4F2F66DB2A123E6B00819DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2F66DA2A123E6B00819DAF /* Assets.xcassets */; };
 		4F2F66DE2A123E6B00819DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2F66DC2A123E6B00819DAF /* LaunchScreen.storyboard */; };
 		4F2F66E92A123E6B00819DAF /* FaceIDwKeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F66E82A123E6B00819DAF /* FaceIDwKeychainTests.swift */; };
 		4F2F66F32A123E6B00819DAF /* FaceIDwKeychainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F66F22A123E6B00819DAF /* FaceIDwKeychainUITests.swift */; };
 		4F2F66F52A123E6B00819DAF /* FaceIDwKeychainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F66F42A123E6B00819DAF /* FaceIDwKeychainUITestsLaunchTests.swift */; };
+		4FC1B3462A3C8C6600499AB0 /* BiometricAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC1B3452A3C8C6600499AB0 /* BiometricAuthentication.swift */; };
+		4FC1B3482A3C8CB300499AB0 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC1B3472A3C8CB300499AB0 /* Keychain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		4F2F66D12A123E6900819DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F2F66D32A123E6900819DAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4F2F66D52A123E6900819DAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F2F66D82A123E6900819DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F2F66DA2A123E6B00819DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F2F66DD2A123E6B00819DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F2F66DF2A123E6B00819DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		4F2F66EE2A123E6B00819DAF /* FaceIDwKeychainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceIDwKeychainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2F66F22A123E6B00819DAF /* FaceIDwKeychainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDwKeychainUITests.swift; sourceTree = "<group>"; };
 		4F2F66F42A123E6B00819DAF /* FaceIDwKeychainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDwKeychainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FC1B3452A3C8C6600499AB0 /* BiometricAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthentication.swift; sourceTree = "<group>"; };
+		4FC1B3472A3C8CB300499AB0 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,9 @@
 		4F2F66D02A123E6900819DAF /* FaceIDwKeychain */ = {
 			isa = PBXGroup;
 			children = (
-				4F2F66D12A123E6900819DAF /* AppDelegate.swift */,
-				4F2F66D32A123E6900819DAF /* SceneDelegate.swift */,
+				4FC1B3442A3C8C5700499AB0 /* Helpers */,
+				4FC1B3432A3C8C4F00499AB0 /* Delegates */,
 				4F2F66D52A123E6900819DAF /* ViewController.swift */,
-				4F2F66D72A123E6900819DAF /* Main.storyboard */,
 				4F2F66DA2A123E6B00819DAF /* Assets.xcassets */,
 				4F2F66DC2A123E6B00819DAF /* LaunchScreen.storyboard */,
 				4F2F66DF2A123E6B00819DAF /* Info.plist */,
@@ -125,6 +126,24 @@
 				4F2F66F42A123E6B00819DAF /* FaceIDwKeychainUITestsLaunchTests.swift */,
 			);
 			path = FaceIDwKeychainUITests;
+			sourceTree = "<group>";
+		};
+		4FC1B3432A3C8C4F00499AB0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F66D12A123E6900819DAF /* AppDelegate.swift */,
+				4F2F66D32A123E6900819DAF /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4FC1B3442A3C8C5700499AB0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4FC1B3452A3C8C6600499AB0 /* BiometricAuthentication.swift */,
+				4FC1B3472A3C8CB300499AB0 /* Keychain.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +252,6 @@
 			files = (
 				4F2F66DE2A123E6B00819DAF /* LaunchScreen.storyboard in Resources */,
 				4F2F66DB2A123E6B00819DAF /* Assets.xcassets in Resources */,
-				4F2F66D92A123E6900819DAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +278,9 @@
 			files = (
 				4F2F66D62A123E6900819DAF /* ViewController.swift in Sources */,
 				4F2F66D22A123E6900819DAF /* AppDelegate.swift in Sources */,
+				4FC1B3462A3C8C6600499AB0 /* BiometricAuthentication.swift in Sources */,
 				4F2F66D42A123E6900819DAF /* SceneDelegate.swift in Sources */,
+				4FC1B3482A3C8CB300499AB0 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F2F66D72A123E6900819DAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F2F66D82A123E6900819DAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4F2F66DC2A123E6B00819DAF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +454,7 @@
 				INFOPLIST_FILE = FaceIDwKeychain/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +482,7 @@
 				INFOPLIST_FILE = FaceIDwKeychain/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
